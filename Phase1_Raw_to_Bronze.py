@@ -5,8 +5,8 @@
 # COMMAND ----------
 
 
-spark._jsc.hadoopConfiguration().set("fs.s3a.access.key", "<AKIAXYKJSQ37HFI6D5UM>")
-spark._jsc.hadoopConfiguration().set("fs.s3a.secret.key", "<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>")
+spark._jsc.hadoopConfiguration().set("fs.s3a.access.key", "<#ACCESS.KEY#>")
+spark._jsc.hadoopConfiguration().set("fs.s3a.secret.key", "<#SECRET.KEY#>")
 spark._jsc.hadoopConfiguration().set("fs.s3a.endpoint", "s3.us-east-2.amazonaws.com")
 
 # COMMAND ----------
